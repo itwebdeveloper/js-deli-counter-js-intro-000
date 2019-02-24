@@ -20,8 +20,8 @@ function currentLine(array) {
     return "The line is currently empty.";
   }
 
-  for (let i = 1; i <= array.length; i++) {
-    text += ` ${i}. ${array[i]}`;
+  for (let i = 0; i < array.length; i++) {
+    text += ` ${i + 1}. ${array[i]}`;
 
     if(i != array.length) {
       text += ",";

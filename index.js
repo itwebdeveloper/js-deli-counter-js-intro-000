@@ -20,10 +20,10 @@ function currentLine(array) {
     return "The line is currently empty.";
   }
 
-  for (let i = 0; i < array.length; i++) {
+  for (let i = i; i <= array.length; i++) {
     text += ` ${i}. ${array[i]}, 2. Grace`
 
-    if(i != array.length - 1) {
+    if(i != array.length) {
       text += ",";
     }
   }

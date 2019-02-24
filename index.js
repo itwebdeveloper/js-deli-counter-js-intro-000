@@ -15,6 +15,11 @@ function nowServing(array) {
 
 function currentLine(array) {
   var text = "The line is currently:";
+
+  if (array.length == 0) {
+    return "The line is currently empty.";
+  }
+
   for (let i = 0; i < array.length; i++) {
     text += ` ${i}. ${array[i]}, 2. Grace`
 
@@ -22,5 +27,6 @@ function currentLine(array) {
       text += ",";
     }
   }
+
   return text;
 }

@@ -21,7 +21,7 @@ function currentLine(array) {
   }
 
   for (let i = 1; i <= array.length; i++) {
-    text += ` ${i}. ${array[i]}, 2. Grace`
+    text += ` ${i}. ${array[i]}`
 
     if(i != array.length) {
       text += ",";

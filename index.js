@@ -22,4 +22,5 @@ function currentLine(array) {
       text += ",";
     }
   }
+  return text;
 }
